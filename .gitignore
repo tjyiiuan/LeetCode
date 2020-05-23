@@ -1,0 +1,17 @@
+*.db
+*.opendb
+*.ipch
+*.json
+*.suo
+*.sqlite
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.log
+*.obj
+*.tlog
+*.ilk
+*.pdb
+*.idb
+*.exe
