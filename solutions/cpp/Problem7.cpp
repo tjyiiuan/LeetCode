@@ -9,7 +9,7 @@ Given a 32-bit signed integer, reverse digits of an integer.
 #include <string>
 
 
-class Solution7 {
+class Solution {
 public:
 	int reverse(int x)	{
 		long long result = 0;
@@ -30,5 +30,4 @@ public:
 		std::cout << "Reversing -145: " << reverse(-145) << std::endl;
 		std::cout << "Reversing 2147483648: " << reverse(2147483648) << std::endl;
 	}
-
 }; 

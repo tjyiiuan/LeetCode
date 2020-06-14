@@ -17,7 +17,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 #include <vector>
 
 
-class Solution53 {
+class Solution {
 public:
 	int maxSubArray(std::vector<int>& nums)	{
 		if (nums.empty())

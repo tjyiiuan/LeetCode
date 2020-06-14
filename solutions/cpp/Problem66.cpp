@@ -12,7 +12,7 @@ You may assume the integer does not contain any leading zero, except the number 
 #include <vector>
 
 
-class Solution66 {
+class Solution {
 public:
 	std::vector<int> plusOne(std::vector<int>& digits) {
 		std::vector<int> result;

@@ -12,7 +12,7 @@ Note: A word is defined as a character sequence consists of non-space characters
 #include <string>
 
 
-class Solution58 {
+class Solution {
 public:
 	int lengthOfLastWord(std::string s)	{
 		int size = s.size();

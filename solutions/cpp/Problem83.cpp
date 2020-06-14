@@ -7,7 +7,7 @@ Given a sorted linked list, delete all duplicates such that each element appear 
 #include "Source.h"
 
 
-class Solution83 {
+class Solution {
 public:
 	ListNode* deleteDuplicates(ListNode* head) {
 		if (head == NULL)

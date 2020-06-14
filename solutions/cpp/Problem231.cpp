@@ -7,7 +7,7 @@ Given an integer, write a function to determine if it is a power of two.
 #include <iostream>
 
 
-class Solution231 {
+class Solution {
 public:
 	bool isPowerOfTwo(int n) {
 		if (n < 1) {

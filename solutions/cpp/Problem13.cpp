@@ -29,9 +29,9 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 #include <map>
 
 
-class Solution13 {
+class Solution {
 public:
-	Solution13() {
+	Solution() {
 		int pre = 1;
 		for (auto &ch : "IXC")
 		{

@@ -8,7 +8,7 @@ Given an array, rotate the array to the right by k steps, where k is non-negativ
 #include <vector>
 
 
-class Solution189 {
+class Solution {
 public:
 	void rotate(std::vector<int>& nums, int k) {
 		if (k <= 0)

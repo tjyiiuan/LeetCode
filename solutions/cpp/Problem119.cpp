@@ -9,7 +9,7 @@ Note that the row index starts from 0.
 #include <vector>
 
 
-class Solution119 {
+class Solution {
 public:
 	std::vector<int> getRow(int rowIndex) {
 		std::vector<int> res = { 1 };

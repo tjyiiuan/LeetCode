@@ -11,7 +11,7 @@ You may assume that the array is non-empty and the majority element always exist
 #include <vector>
 
 
-class Solution169 {
+class Solution {
 public:
 	int majorityElement(std::vector<int>& nums)	{
 		std::map<int, int> count;

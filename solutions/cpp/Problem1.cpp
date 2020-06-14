@@ -10,7 +10,7 @@ You may assume that each input would have exactly one solution, and you may not 
 #include <iostream>
 
 
-class Solution1 {
+class Solution {
 public:
 	std::vector<int> twoSum(std::vector<int> &vec, int target) {
 		std::vector<int> result;
@@ -30,13 +30,12 @@ public:
 		return result;
 	}
 	void test() {
-		Solution1 s;
-		std::vector<int> twoSum;
-		twoSum.push_back(2);
-		twoSum.push_back(7);
-		twoSum.push_back(4);
-		twoSum.push_back(6);
-		std::vector<int> solution = s.twoSum(twoSum, 9);
+		std::vector<int> vecSum;
+		vecSum.push_back(2);
+		vecSum.push_back(7);
+		vecSum.push_back(4);
+		vecSum.push_back(6);
+		std::vector<int> solution = twoSum(vecSum, 9);
 		for (auto &k : solution)
 		{
 			std::cout << k << std::endl;

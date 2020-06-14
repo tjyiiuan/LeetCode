@@ -19,7 +19,7 @@ For example:
 #include <string>
 
 
-class Solution171 {
+class Solution {
 public:
 	int titleToNumber(std::string s) {
 		long long count = 0;

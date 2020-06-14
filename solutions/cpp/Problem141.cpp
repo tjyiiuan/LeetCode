@@ -11,7 +11,7 @@ Can you solve it using O(1) (i.e. constant) memory?
 #include "Source.h"
 
 
-class Solution141 {
+class Solution {
 public:
 	bool hasCycle(ListNode *head) {
 		ListNode* fast, *slow;

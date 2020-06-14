@@ -19,7 +19,7 @@ For example:
 #include <string>
 
 
-class Solution168 {
+class Solution {
 public:
 	std::string convertToTitle(int n) {
 		std::string result = "";

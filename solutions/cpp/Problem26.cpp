@@ -10,7 +10,7 @@ Do not allocate extra space for another array, you must do this by modifying the
 #include <vector>
 
 
-class Solution26 {
+class Solution {
 public:
 	int removeDuplicates(std::vector<int>& nums) {
 		if (nums.size() == 1)

@@ -9,7 +9,7 @@ The new list should be made by splicing together the nodes of the first two list
 #include <iostream>
 #include "Source.h"
 
-class Solution21 {
+class Solution {
 public:
 	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)	{
 		ListNode* result = new ListNode(-1);

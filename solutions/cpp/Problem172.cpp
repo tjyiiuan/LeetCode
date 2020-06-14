@@ -7,7 +7,7 @@ Given an integer n, return the number of trailing zeroes in n!.
 #include <iostream>
 
 
-class Solution172 {
+class Solution {
 public:
 	int trailingZeroes(int n) {
 		int count = 0;

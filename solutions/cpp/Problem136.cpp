@@ -10,7 +10,7 @@ Your algorithm should have a linear runtime complexity.Could you implement it wi
 #include <vector>
 
 
-class Solution136 {
+class Solution {
 public:
 	int singleNumber(std::vector<int>& nums) {
 		int num = 0;

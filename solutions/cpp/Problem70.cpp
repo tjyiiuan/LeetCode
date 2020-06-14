@@ -12,9 +12,9 @@ Note: Given n will be a positive integer.
 #include <map>
 
 
-class Solution70 {
+class Solution {
 public:
-	Solution70() {
+	Solution() {
 		cache[1] = 1;
 		cache[2] = 2;
 	}

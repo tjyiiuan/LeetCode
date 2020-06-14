@@ -10,7 +10,7 @@ The input strings are both non-empty and contains only characters 1 or 0.
 #include <string>
 
 
-class Solution67 {
+class Solution {
 public:
 	std::string addBinary(std::string a, std::string b)	{
 
@@ -75,5 +75,4 @@ public:
 		std::cout << "1010 + 1011 = " << addBinary("1010", "1011") << std::endl;
 		std::cout << "1111 + 1111 = " << addBinary("1111", "1111") << std::endl;
 	}
-
 };

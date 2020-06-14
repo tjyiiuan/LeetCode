@@ -10,7 +10,7 @@ If there is no common prefix, return an empty string "".
 #include <vector>
 
 
-class Solution14 {
+class Solution {
 public:
 	std::string longestCommonPrefix(std::vector<std::string>& strs)	{
 		std::string comPrefix;

@@ -14,7 +14,7 @@ You may assume that each input would have exactly one solution and you may not u
 #include <vector>
 
 
-class Solution167 {
+class Solution {
 public:
 	std::vector<int> twoSum(std::vector<int>& numbers, int target) {
 		std::vector<int> result;

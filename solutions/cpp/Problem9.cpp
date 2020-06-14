@@ -7,7 +7,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 #include <iostream>
 
 
-class Solution9 {
+class Solution {
 public:
 	bool isPalindrome(int x) {
 		if (x < 0)

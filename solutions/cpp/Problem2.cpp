@@ -13,7 +13,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 #include "Source.h"
 
 
-class Solution2 {
+class Solution {
 public:
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 		ListNode* result = new ListNode(-1);

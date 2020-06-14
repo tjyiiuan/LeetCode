@@ -11,7 +11,7 @@ Since the return type is an integer, the decimal digits are truncated and only t
 #include <iostream>
 
 
-class Solution69 {
+class Solution {
 public:
 	int mySqrt(int x) {
 		long long result = x / 2;

@@ -14,9 +14,9 @@ Note that an empty string is also considered valid.
 #include <string>
 
 
-class Solution20 {
+class Solution {
 public:
-	Solution20()
+	Solution()
 	{
 		for (int i = 0; i < 3; i++)
 		{

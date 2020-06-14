@@ -11,7 +11,7 @@ You may assume no duplicates in the array.
 #include <vector>
 
 
-class Solution35 {
+class Solution {
 public:
 	int searchInsert(std::vector<int>& nums, int target) {
 		if (nums.empty())

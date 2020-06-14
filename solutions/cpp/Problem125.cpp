@@ -10,7 +10,7 @@ Note: For the purpose of this problem, we define empty string as valid palindrom
 #include <string>
 
 
-class Solution125 {
+class Solution {
 public:
 	bool isPalindrome(std::string s)
 	{

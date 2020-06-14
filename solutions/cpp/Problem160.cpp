@@ -13,7 +13,7 @@ Notes:
 #include "Source.h"
 
 
-class Solution160 {
+class Solution {
 public:
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 	{

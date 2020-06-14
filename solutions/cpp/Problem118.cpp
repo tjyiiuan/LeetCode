@@ -8,7 +8,7 @@ Given a non-negative integer numRows, generate the first numRows of Pascal's tri
 #include <vector>
 
 
-class Solution118 {
+class Solution {
 public:
 	std::vector<std::vector<int>> generate(int numRows) {
 		std::vector<std::vector<int>> res;
