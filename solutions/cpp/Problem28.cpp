@@ -16,7 +16,7 @@ This is consistent to C's strstr() and Java's indexOf().
 #include <string>
 
 
-class Solution28 {
+class Solution {
 public:
 	int strStr(std::string haystack, std::string needle) {
 		if (needle == "")

@@ -1,8 +1,8 @@
-#include "Problem119.cpp"
+#include "Problem121.cpp"
 
 int main()
 {
-	Solution119 s;
+	Solution s;
 	s.test();
 }
 

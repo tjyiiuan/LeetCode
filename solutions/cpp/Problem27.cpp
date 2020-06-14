@@ -10,7 +10,7 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 #include <vector>
 
 
-class Solution27 {
+class Solution {
 public:
 	int removeElement(std::vector<int>& nums, int val)	{
 		for (std::vector<int>::iterator it = nums.begin(); it != nums.end();)

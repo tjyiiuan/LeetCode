@@ -19,7 +19,7 @@ Note: Each term of the sequence of integers will be represented as a string.
 #include <string>
 
 
-class Solution38 {
+class Solution {
 public:
 	std::string readStr(std::string &str) {
 		int size = str.length();
