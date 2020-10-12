@@ -18,11 +18,11 @@ class TreeNode:
 
 class Solution:
     def isSameTree(self, p, q):
-        if p == None and q == None:
+        if p is None and q is None:
             return True
-        elif p == None and q != None:
+        elif p is None and q is not None:
             return False
-        elif q == None and p != None:
+        elif q is None and p is None:
             return False
         else:
             if p.val != q.val:

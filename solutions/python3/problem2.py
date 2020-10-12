@@ -36,7 +36,7 @@ class Solution:
         res = l.val
         count = 0
 
-        while l.next != None:
+        while l.next is not None:
             count += 1
             l = l.next
             res += l.val * (10 ** count)
