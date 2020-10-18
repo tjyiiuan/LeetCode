@@ -68,3 +68,5 @@ class Solution2:
                 cur_node = cur_node.next
 
             left_most = left_most.left
+
+        return root
